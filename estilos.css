@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: teal;
+	font-family: Tauri;
+}
+
+.principal {
+	max-width: 100%;
+	margin: 1em;
+	padding: 1em;
+	background: sienna;
+	color: whitesmoke;
+}
+
+.contenido {
+	max-width: 100%;
+	margin: 1em;
+	padding: 1em;
+}
+
+
+
+/*media querys*/
+@media (min-width: 600px) {
+	.principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contenido {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+
+	footer p {
+		text-align: center;
+		text-decoration: none;
+	}
+
+	footer a {
+		text-align: center;
+		text-decoration: none;
+	}	
+	
+}
+
